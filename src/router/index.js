@@ -71,6 +71,18 @@ export default new Router({
 })
 
 export const asyncRouterMap = [
+
+  {
+    path: '/tickets',
+    component: Layout,
+    children: [{
+      path: 'index',
+      component: () => import('@/views/tickets/admin'),
+      name: 'ticket',
+      meta: { title: 'tickets', icon: 'bug' }
+    }]
+  },
+
   {
     path: '/permission',
     component: Layout,
