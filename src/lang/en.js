@@ -124,7 +124,9 @@ export default {
     draft: 'Draft',
     delete: 'Delete',
     cancel: 'Cancel',
-    confirm: 'Confirm'
+    confirm: 'Confirm',
+    code: 'Code',
+    responsible: 'Responsible'
   },
   errorLog: {
     tips: 'Please click the bug icon in the upper right corner',
