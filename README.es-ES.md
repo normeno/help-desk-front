@@ -20,7 +20,8 @@
   </a>
 </p>
 
-English | [Spanish](./README.es-ES.md)
+Spanish | [English](./README.md)
+
 
 ## Introduction
 
